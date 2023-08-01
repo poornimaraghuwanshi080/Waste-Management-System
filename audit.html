@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit Your Waste</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .heading,.footer{
+            text-align: center;
+            color: white;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(108, 206, 252, 0.793);
+            background-color: rgba(0, 128, 0, 0.699);
+        }
+        .container{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .container table{
+            width:90%;
+            margin-top: 10px;
+            margin-right: 5%;
+            margin-left: 5%;
+            border-collapse: collapse;
+        }
+        .container table,th,td{
+            border: 1px solid rgb(79, 142, 25);
+            box-shadow: 1px 1px 1px rgba(108, 252, 110, 0.793);
+
+
+        }
+        .container th{
+            font-size: 1.2rem;
+            padding: 5px;
+        }
+        img{
+            width:18vw;
+            padding: 5px;
+        }
+        input{
+            width:5vw;
+        }
+        tr{
+            font-size: 1.1rem;
+        }
+        button{
+            box-shadow: 2px 2px 5px rgba(108, 206, 252, 0.793);
+            background-color: rgba(0, 128, 0, 0.699);
+            margin: 20px;
+            height: 50px;
+            width: 200px;
+            border: none;
+            color: white;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Audit Your Waste</h1>
+    </div>
+    <div class="container">
+        <div class="h4">Select the items : </div>
+        <table>
+           <thead>
+            <tr>
+                <th>Select</th>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Weight(in_kg)</th>
+                <th>Weight(in_g)</th>
+                <th>Quantity</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Bottel</td>
+                <td><img src="Images/bottel.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Cardboard</td>
+                <td><img src="Images/cardboard.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Eggs</td>
+                <td><img src="Images/egg.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Computer</td>
+                <td><img src="Images/ewaste1.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Hardware</td>
+                <td><img src="Images/ewaste2.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Footwear</td>
+                <td><img src="Images/footwear.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Garden</td>
+                <td><img src="Images/garden.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Liquid</td>
+                <td><img src="Images/liquid1.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Fruits&Vegetables</td>
+                <td><img src="Images/kitchenVegFrut.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Liquid</td>
+                <td><img src="Images/liquid2.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Medical</td>
+                <td><img src="Images/mw1.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>Medical</td>
+                <td><img src="Images/mw2.png" alt=""></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+           </tbody>
+        </table>
+
+        <button>Audit</button>
+
+    </div>
+
+    <div class="footer">
+        <p>Haryana Waste Management System</p>
+    </div>
+</body>
+
+</html>
